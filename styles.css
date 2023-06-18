@@ -231,7 +231,11 @@ div.social a:hover {
     transition: 0.5s;
 }
 
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
 @media screen and (max-width: 700px) {
+
+    /* RESPONIVIDADE 700 PX */
     div.master-carton {
         background: black;
         width: 100%;
@@ -259,10 +263,12 @@ div.social a:hover {
     div.my-name {
         display: flex;
         flex-direction: column;
-    }    
+    }
 
-    /* div.projects { }        */
-     
+    div.projects h2 {
+        font-size: 50px;
+    }
+
 
     div.card-projects {
         display: flex;
@@ -275,10 +281,10 @@ div.social a:hover {
         width: 80%;
     }
 
-    div.card a {        
-        margin:0;
-        padding: 11px;
-        font-size: 17px;
+    div.card a {
+        margin: 0;
+        padding: 7px;
+        font-size: 15px;
 
     }
 
@@ -287,10 +293,35 @@ div.social a:hover {
         flex-direction: column;
     }
 
-    footer{
+    footer {
         width: 100%;
     }
 
 
+
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+@media screen and (max-width: 350px) {
+    /* RESPONIVIDADE 350 PX */
+
+    div.my-name h1 {
+        font-size: 25px;
+    }
+
+    div.my-name h3 {
+        font-size: 20px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.card a {
+        padding: 1px;
+    }
 
 }
