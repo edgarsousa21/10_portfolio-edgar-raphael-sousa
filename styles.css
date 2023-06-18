@@ -234,10 +234,21 @@ div.social a:hover {
 @media screen and (max-width: 700px) {
     div.master-carton {
         background: black;
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
     }
 
     nav ul {
-        display: none;
+        display: inline-block;
+    }
+
+    nav ul li {
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
     }
 
     section img {
@@ -248,27 +259,36 @@ div.social a:hover {
     div.my-name {
         display: flex;
         flex-direction: column;
-    }
+    }    
 
-    div.projects {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
+    /* div.projects { }        */
+     
 
     div.card-projects {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 30px;
     }
 
-    div.card a {
-        padding: 2px 4px;
+    div.card {
+        height: 80%;
+        width: 80%;
+    }
+
+    div.card a {        
+        margin:0;
+        padding: 11px;
+        font-size: 17px;
+
     }
 
     section#about {
         display: flex;
         flex-direction: column;
+    }
+
+    footer{
+        width: 100%;
     }
 
 
