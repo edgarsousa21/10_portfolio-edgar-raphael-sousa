@@ -97,8 +97,8 @@ section div p {
     text-align: justify;
 }
 
-section div a{
-    outline:none;
+section div a {
+    outline: none;
     text-decoration: none;
 }
 
@@ -111,7 +111,7 @@ section div button {
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    margin-left: 10px;    
+    margin-left: 10px;
 }
 
 section div button:hover {
@@ -144,6 +144,11 @@ div.card {
     padding: 20px 35px;
     text-align: center;
 
+}
+
+div.card:hover {
+    transform: scale3d(1.1, 1.1, 1);
+    transition: 0.5s;
 }
 
 div.card img {
@@ -271,11 +276,11 @@ div.social a:hover {
         height: 250px;
     }
 
-   
+
     section div button {
         display: block;
         margin: 15px auto;
-        
+
     }
 
     div.my-name {
