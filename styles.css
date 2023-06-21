@@ -263,7 +263,7 @@ div.social a:hover {
         font-size: 20px;
         display: flex;
         flex-direction: column;
-        padding: 0 0;
+        padding: 7px 0;
     }
 
     section img {
