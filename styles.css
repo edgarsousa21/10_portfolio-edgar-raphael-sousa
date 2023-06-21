@@ -97,6 +97,11 @@ section div p {
     text-align: justify;
 }
 
+section div a{
+    outline:none;
+    text-decoration: none;
+}
+
 section div button {
     background-color: #f9004d;
     color: white;
@@ -106,7 +111,7 @@ section div button {
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    margin-left: 10px;
+    margin-left: 10px;    
 }
 
 section div button:hover {
@@ -151,7 +156,7 @@ div.card h5 {
     padding: 5px 0 20px 0;
 }
 
-div.card h5 span{
+div.card h5 span {
     font-size: 15px;
 }
 
@@ -258,6 +263,7 @@ div.social a:hover {
         font-size: 20px;
         display: flex;
         flex-direction: column;
+        padding: 0 0;
     }
 
     section img {
@@ -265,8 +271,11 @@ div.social a:hover {
         height: 250px;
     }
 
+   
     section div button {
-        margin-bottom: 15px;
+        display: block;
+        margin: 15px auto;
+        
     }
 
     div.my-name {
@@ -282,6 +291,7 @@ div.social a:hover {
     div.card-projects {
         display: flex;
         flex-direction: column;
+        align-items: center;
         gap: 30px;
     }
 
