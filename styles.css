@@ -376,4 +376,12 @@ div.social a:hover {
         padding: 1px;
     }
 
+    footer h5{
+        font-size: 28px;
+    }
+
+    footer p{
+        font-size: 16px;
+    }
+
 }
