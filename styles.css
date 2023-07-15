@@ -11,7 +11,7 @@ div.master-carton {
     background-image: url(./img/background.png);
     background-size: cover;
     background-position: center;
-    background-color: #191919;
+    background-color: #607EC9;
 }
 
 nav {
@@ -24,19 +24,27 @@ nav {
 }
 
 h2.portfolio {
-    color: #ffffff;
+    color: #FFFFFF;
     font-size: 40px;
     font-weight: 500;
 }
 
 h2.portfolio span {
-    color: #f9004d;
+    color: #31C455;
+}
+
+h3#grabovoi{  
+    margin: 20px 0 0 30px;  
+    color: white;
+    font-weight: bolder;
+    opacity: 0.03;
+    font-size: 30px;
 }
 
 
 
 li {
-    color: white;
+    color: #FFFFFF;
     list-style: none;
     display: inline-block;
     font-size: 25px;
@@ -44,8 +52,13 @@ li {
     cursor: pointer;
 }
 
+li a{
+    color:#FFFFFF;
+    outline: none;
+}
+
 li:hover {
-    color: #f9004d;
+    color: #31C455;
     transition: 0.5s;
     transform: scale3d(1.1, 1.1, 1);
 }
@@ -57,16 +70,16 @@ div.my-name {
 }
 
 h1 {
-    color: white;
+    color: #FFFFFF;
     font-size: 50px;
 }
 
 h1 span {
-    color: #f9004d;
+    color: #31C455;
 }
 
 div.my-name h3 {
-    color: white;
+    color: #FFFFFF;
     font-size: 25px;
 }
 
@@ -74,20 +87,20 @@ section {
     display: flex;
     align-items: center;
     padding: 60px 15%;
-    background-color: #000000;
+    background-color: #1C4C96;
 
 }
 
 section img {
     height: 400px;
     border-radius: 100%;
-    border: 1px solid #f9004d;
+    border: 1px solid #31C455;
     margin-left: 20px;
     margin-right: 30px;
 }
 
 section div h2 {
-    color: white;
+    color: #FFFFFF;
     font-size: 75px;
 }
 
@@ -103,8 +116,8 @@ section div a {
 }
 
 section div button {
-    background-color: #f9004d;
-    color: white;
+    background-color: #31C455;
+    color: #FFFFFF;
     height: 40px;
     width: 180px;
     font-size: 18px;
@@ -115,27 +128,27 @@ section div button {
 }
 
 section div button:hover {
-    border: 3px solid #f9004d;
-    background-color: black;
+    border: 3px solid #31C455;
+    background-color: #1c4c96;
     transition: 0.5s;
     transform: scale3d(1.1, 1.1, 1);
 }
 
 div.projects {
-    background-color: #191919;
+    background-color: #607EC9;
     padding-top: 50px;
     padding-bottom: 100px;
 
 }
 
 div.projects h2 {
-    color: white;
+    color: #FFFFFF;
     font-size: 75px;
     text-align: center;
 }
 
 div.card {
-    background-color: #000000;
+    background-color: #1C4C96;
     /* height: 365px;
     width: 335px; */
     height: 438px;
@@ -156,7 +169,7 @@ div.card img {
 }
 
 div.card h5 {
-    color: white;
+    color: #FFFFFF;
     font-size: 20px;
     padding: 5px 0 20px 0;
 }
@@ -173,8 +186,8 @@ div.card p {
 
 div.card a {
     text-decoration: none;
-    background-color: #f9004d;
-    color: white;
+    background-color: #31C455;
+    color: #FFFFFF;
     padding: 10px 20px;
     border-radius: 25px;
     cursor: pointer;
@@ -184,7 +197,7 @@ div.card a {
 
 div.card a:hover {
     background-color: transparent;
-    border: 2px solid #f9004d;
+    border: 2px solid #31C455;
 
 }
 
@@ -197,7 +210,7 @@ div.card-projects {
 }
 
 footer {
-    background-color: #000000;
+    background-color: #1C4C96;
     padding-top: 100px;
     padding-bottom: 120px;
     display: flex;
@@ -208,12 +221,12 @@ footer {
 }
 
 footer h5 {
-    color: white;
+    color: #FFFFFF;
     font-size: 30px;
 }
 
 footer p {
-    color: white;
+    color: #FFFFFF;
     font-size: 18px;
     margin: 18px 0 14px 0;
 }
@@ -231,7 +244,7 @@ div.social img {
 }
 
 div.social a {
-    background-color: #f9004d;
+    background-color: #31C455;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -252,7 +265,7 @@ div.social a:hover {
 
     /* RESPONIVIDADE 700 PX */
     div.master-carton {
-        background: black;
+        background: #1c4c96;
         width: 100%;
     }
 
@@ -269,6 +282,16 @@ div.social a:hover {
         display: flex;
         flex-direction: column;
         padding: 7px 0;
+    }
+
+    li{
+        margin-bottom: 20px;
+    }
+
+    h3#grabovoi{ 
+    text-align: center;
+    font-size: 20px;
+    margin:0 0 0 0; 
     }
 
     section img {
@@ -331,8 +354,13 @@ div.social a:hover {
 @media screen and (max-width: 350px) {
     /* RESPONIVIDADE 350 PX */
 
+    li{
+        margin-bottom: 10px;
+    }
+
     div.my-name h1 {
         font-size: 25px;
+        margin-top: 60px;
     }
 
     div.my-name h3 {
